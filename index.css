@@ -1,0 +1,317 @@
+/* Kod nedan by yassine */
+
+body {
+  background-color: #c9d6da;
+  color: rgb(56, 4, 4);
+  font-family: "Open Sans";
+}
+
+h3 {
+  text-align: center;
+  font-size: 37px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bree Serif";
+  text-align: center;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+.center .p-kontakt {
+  text-align: center;
+}
+
+#p-kontakt {
+  background-color: rgb(96, 195, 195);
+  padding: 15px;
+  margin: 40px;
+  border: 2px rgb(7, 6, 6);
+  border-style: solid;
+}
+
+.contact-form {
+  border: solid 1px rgb(7, 6, 6);
+  padding: 20px;
+}
+
+.contact-form input {
+  width: calc(100% - 100px);
+  padding: 12px 20px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(6, 2, 22);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 160px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(37, 17, 126);
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.contact-form .submit-button {
+  border: 1px solid #d6712d;
+  background-color: #d6712d;
+  color: white;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.city-gothenburg {
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.om-oss {
+  border: 5px;
+  border-style: double;
+  text-align: center;
+}
+
+.om-oss-p {
+  font-size: 20px;
+  padding: 17px;
+  margin: 28px;
+}
+
+.category-box a {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+/* ---------------------------------------------- */
+
+.category-box a:hover {
+  background-color: rgb(17, 174, 236);
+  color: yellow;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(48, 89, 156);
+  text-align: center;
+  border-radius: 20px;
+}
+
+footer p:last-child {
+  margin-bottom: 5px;
+}
+
+#flix-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.category-box {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d6712d;
+  color: #dbe7df;
+  font-size: 24px;
+  list-style-type: none;
+  padding: 5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+  position: relative;
+  margin: 0 10px 10px;
+  flex: 100%;
+}
+
+/* small screens */
+
+@media (min-width: 360px) and (max-width: 767px) {
+  #flix-box {
+    flex-direction: row;
+  }
+  .category-box {
+    flex: calc(50% - 20px);
+  }
+}
+
+/* midium screens */
+
+@media (min-width:768px) {
+  #flix-box {
+    flex-direction: row;
+  }
+  .category-box {
+    flex: calc(25% - 20px);
+  }
+}
+
+.category-box span {
+  position: relative;
+  z-index: 1;
+}
+
+.social-icons {
+  display: flex;
+  width: 100%;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.social-icons li {
+  flex: 1;
+}
+
+.category-box-shower {
+  background-image: url("img/show2.jpg");
+}
+
+.category-box-sport {
+  background-image: url("img/sport.jpg");
+}
+
+.category-box-opera {
+  background-image: url("img/opera2.jpg");
+}
+
+.category-box-konserter {
+  background-image: url("img/image4.jpg");
+}
+
+.section-img {
+  background-image: url("img/Bak-miljo.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  background-size: contain;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(56, 12, 34);
+}
+
+.telefon-n {
+  font-size: larger;
+  font-weight: bolder;
+  color: #23332a;
+}
+
+.first-W {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.small-icon {
+  height: 50px;
+  width: 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.background-img {
+  background-image: url("img/GOTH.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Kod nedan by Fredric */
+
+header {
+  background-color: rgb(48, 89, 156);
+  padding: 10px 20px;
+}
+
+main {
+  padding: 0 50px 50px 50px;
+}
+
+li {
+  margin: auto;
+}
+
+/* ----------Menu big---------- */
+
+@media (min-width: 510px) {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    font-size: larger;
+    padding: 15px 0 15px 0;
+    margin: 0;
+  }
+  li a {
+    padding: 10px;
+  }
+}
+
+/* -----------X------X---------- */
+
+/* ----------Menu small-and fix--------- */
+
+@media (max-width: 509px) {
+  .menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+  }
+  li a {
+    padding: 5px;
+  }
+  h3 {
+    font-size: larger;
+  }
+  .section-img {
+    display: none;
+  }
+}
+
+/* -----------X------X---------- */
+
+#brand {
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(68, 6, 6);
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+.logo {
+  width: 100%;
+  position: relative;
+}
